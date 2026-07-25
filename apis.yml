@@ -1,7 +1,28 @@
 aid: create
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/create.png
 name: Create
-description: Create is a company surfaced as a portfolio company of 8vc and added to the API Evangelist
-  network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  CREATE Medicines is a Cambridge, Massachusetts biopharmaceutical company
+  developing in vivo CAR (chimeric antigen receptor) cell therapies using mRNA
+  lipid-nanoparticle (mRNA-LNP) delivery. Its platform reprograms immune cells,
+  including T cells, NK cells, and myeloid cells, directly inside the body rather
+  than extracting and engineering them ex vivo, with clinical and preclinical
+  programs spanning oncology, autoimmune disease, and fibrosis. Surfaced as a
+  portfolio company of 8vc and added to the API Evangelist network as a stub. The
+  enrichment pipeline found no developer or API surface; this is a clinical-stage
+  therapeutics company, not a software or platform provider, so no API artifacts
+  were produced (none is the correct, non-fabricated result).
 url: https://raw.githubusercontent.com/api-evangelist/create/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -9,11 +30,19 @@ x-backed-by:
 - 8vc
 x-tier: stub
 x-tier-reason: portfolio-lead
+x-api-surface: none
+x-industry: biopharmaceutical
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-18'
 tags:
 - Company
+- Biopharmaceutical
+- Cell Therapy
+- mRNA
+- Oncology
+- Immunology
+- Biotechnology
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -23,3 +52,12 @@ maintainers:
 common:
 - type: Website
   url: https://createmedicines.com
+- type: PrivacyPolicy
+  url: https://createmedicines.com/privacy-policy
+- type: TermsOfService
+  url: https://createmedicines.com/terms-of-use
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
