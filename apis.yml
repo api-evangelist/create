@@ -22,7 +22,7 @@ accessModel:
   generated: '2026-07-22'
   method: derived
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/create.png
-name: Create
+name: CREATE Medicines
 description: >-
   CREATE Medicines is a Cambridge, Massachusetts biopharmaceutical company
   developing in vivo CAR (chimeric antigen receptor) cell therapies using mRNA
@@ -61,6 +61,14 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/create-domain-security.yml
+- type: Careers
+  url: https://myeloidtherapeutics.bamboohr.com/careers
+- type: LinkedIn
+  url: https://www.linkedin.com/company/createmedicines/
+- type: Twitter
+  url: https://x.com/CREATEMedicines
 - type: Website
   url: https://createmedicines.com
 - type: PrivacyPolicy
